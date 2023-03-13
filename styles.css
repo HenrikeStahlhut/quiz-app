@@ -16,8 +16,8 @@
    background: rgb(63,94,251);
    background: linear-gradient(331deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
  }
-
- #background{
+ 
+#background{
    margin: 50px auto auto auto;
    max-width: 35%;
    height: 80%;
@@ -45,6 +45,32 @@ main{
    display: flex;
    margin: 50px auto auto auto;
    border-radius: 15px;
+}
+
+.card{
+   background-color: white;
+   border-radius: 15px;
+max-width: 250px;
+height: ;
+}
+
+.question{
+   font-size: 18px;
+}
+
+.solution_button{
+   font-size: 18px;
+   background-color: rgba(138, 67, 219, 0.4);
+   color: white;
+   border: none;
+   padding: 10px 25px;
+   border-radius: 20px;
+   cursor: pointer;
+}
+
+.solution_button:hover{
+   background-color: rgba(138, 67, 219, 0.2);
+   color: rgba(138, 67, 219, 0.4);
 }
 
 
