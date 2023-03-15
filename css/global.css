@@ -1,10 +1,9 @@
 @font-face {
-    font-family: MyFont;
-    src: url(fonts/KeeponTruckin.ttf);
-  }
-  
-  
-  *{
+  font-family: MyFont;
+  src: url(../fonts/KeeponTruckin.ttf);
+}
+
+*{
      box-sizing: border-box;
   }
  
