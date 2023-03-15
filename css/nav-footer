@@ -1,0 +1,14 @@
+#footer{
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
+   position: fixed;
+   background-color: rgba(255,255,255,0.25);
+   border-radius: 15px;
+   padding-top: auto;
+}
+
+.nav_img{
+   width: 70px; 
+   padding: 0px; 
+}
