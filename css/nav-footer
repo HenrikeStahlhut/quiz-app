@@ -8,7 +8,7 @@
    padding-top: auto;
 }
 
-.nav_img{
+.footer__img{
    width: 70px; 
    padding: 0px; 
 }

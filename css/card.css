@@ -7,12 +7,12 @@ main{
     height: 80%;
  }
  
- .bookmarkButton{
+ .button--bookmark{
     background-color: transparent;
     border: none;
  }
  
- .bookmarkSVG{
+ .button__svg{
     position: absolute;
     width: 35px;
  
@@ -28,14 +28,14 @@ main{
     height: 230px;
  }
  
- .question{
+ .card__question{
     font-size: 18px;
     text-align: center;
     padding: 15px;
     margin-bottom: 0;
  }
  
- .solution_button{
+ .card__solution-button{
     font-size: 18px;
     background-color: rgba(138, 67, 219, 0.4);
     color: white;
@@ -46,12 +46,12 @@ main{
     margin: auto;
  }
  
- .solution_button:hover{
+ .card__solution-button:hover{
     background-color: rgba(138, 67, 219, 0.2);
     color: rgba(138, 67, 219, 0.4);
  }
  
- #tags{
+ #card__tags{
     margin-top: 20px;
  }
  

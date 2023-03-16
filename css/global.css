@@ -1,10 +1,9 @@
 @font-face {
-    font-family: MyFont;
-    src: url(fonts/KeeponTruckin.ttf);
-  }
-  
-  
-  *{
+  font-family: MyFont;
+  src: url(../fonts/KeeponTruckin.ttf);
+}
+
+*{
      box-sizing: border-box;
   }
  
@@ -16,7 +15,7 @@
     background: linear-gradient(331deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
   }
 
-  #background{
+  #div--background{
     margin: 50px auto auto auto;
     max-width: 35%;
     height: 80%;
