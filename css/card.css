@@ -72,3 +72,9 @@
    right: 20px;
    top: -20px;
  }
+
+ .card__answer{
+   display: block;
+   text-align: center;
+   margin-bottom: 30px;
+ }
