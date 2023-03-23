@@ -1,12 +1,18 @@
 header{
-   display: flex;
-   justify-content: center;
+   position: fixed;
+   z-index: 20;
+   top: 0;
+   left: 0;
+   width: 100%;
+   padding: 2rem 0;
    background-color: rgba(255,255,255,0.25);
-   border-radius: 15px;
 }
 
 h1{
-   color: white;
+   text-align: center;
+   color: var(--orange);
+   text-shadow: 4px 4px var(--darkOrange);
+   font-size: 60px;
    font-family: "MyFont";
    font-weight: 200;
 }

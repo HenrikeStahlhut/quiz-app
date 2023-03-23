@@ -3,22 +3,41 @@
   src: url(../fonts/KeeponTruckin.ttf);
 }
 
+:root{
+  --teal: #74ccac;
+  --darkTeal: #487866;
+  --darkOrange: #e4741c;
+  --orange: #f4a127;
+  --beige: #ffe4c4;;
+  --brown:#5c3c2c;
+  --white: #FFFFFF;
+  --black: #000000;
+}
+
 *{
      box-sizing: border-box;
   }
  
-  body{
-    height: 100vh;
-    margin: 0px;
+body{
     font-family: Arial, Helvetica, sans-serif;
-    background: rgb(63,94,251);
-    background: linear-gradient(331deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
-  }
+    background-color: var(--beige);
+    /* background: linear-gradient(331deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%); */
+ }
 
-  #div--background{
-    margin: 50px auto auto auto;
-    max-width: 35%;
-    height: 80%;
-    background-color: rgba(255,255,255,0.25);
-    border-radius: 15px;
-  }
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li,
+ol li {
+  list-style: none;
+  padding: 0;
+}
+
+h1,h2,h3{
+  margin: 0px;
+}
+
