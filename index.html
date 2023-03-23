@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
     <title>Quiz App</title>
 </head>
 <body>
@@ -25,16 +26,8 @@
                                 <li class="card__tag-list-item">#Tag3</li>
                             </ul>
                             <div class="card__button-bookmark">
-                                <button class="bookmark" aria-label="bookmark" type="button">
-                                    <svg
-                  class="bookmark__icon"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewbox="0 0 24 24"
-                >
-                  <path
-                    d="M17 3H7c-1.1 0-2 .9-2 2v16l7-3 7 3V5c0-1.1-.9-2-2-2z"
-                  />
-                </svg>
+                                <button class="bookmark" aria-label="bookmark" type="button" data-js="bookmark-button">
+                                    <svg class="bookmark__icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M17 3H7c-1.1 0-2 .9-2 2v16l7-3 7 3V5c0-1.1-.9-2-2-2z"/></svg>
                                 </button>
                               </div>
                         </section>
@@ -49,6 +42,6 @@
                     <li class="navigation__list__item"><a href="profile.html" class="navigation__list-link"><svg style="color: #f4a127"  xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16" width="70px" height="70px"> <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" fill="#f4a127"></path></svg></a></li> 
                 </ul>
             </nav>
-            <script src="js/script.js"></script>
+            
 </body>
 </html>
