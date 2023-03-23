@@ -10,7 +10,8 @@ header{
 
 h1{
    text-align: center;
-   color: orange;
+   color: var(--orange);
+   text-shadow: 4px 4px var(--darkOrange);
    font-size: 60px;
    font-family: "MyFont";
    font-weight: 200;

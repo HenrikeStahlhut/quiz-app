@@ -9,24 +9,24 @@
  }
  
  .card{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: white;
+   position: relative;
+    background-color: var(--white);
     border-radius: 15px;
     padding: 3rem 2rem 2rem 2rem ;
  }
  
  .card__question{
+   display: block;
     font-size: 18px;
     text-align: center;
     margin: 0 0 2rem;
  }
  
  .card__solution-button{
+   display: block;
     font-size: 18px;
-    background-color: rgba(138, 67, 219, 0.4);
-    color: white;
+    background-color: var(--teal);
+    color: var(--white);
     border: none;
     padding: 10px 25px;
     border-radius: 20px;
@@ -35,21 +35,23 @@
  }
  
  .card__solution-button:hover{
-    background-color: rgba(138, 67, 219, 0.2);
-    color: rgba(138, 67, 219, 0.4);
+    background-color: var(--teal);
+    color: var(--white);
+    box-shadow: 4px 4px var(--darkTeal);
  }
 
  .card__tag-list{
    display: flex;
    flex-wrap: wrap;
+   justify-content: center;
    gap: 5px;
    margin: 30px auto 20px auto;
  }
  
  .card__tag-list-item{
     font-weight: 300;
-    background-color: rgb(99, 74, 175);
-    color: white;
+    background-color: var(--teal);
+    color: var(--white);
     padding: 8px;
     border-radius: 5px;
     margin-right: 5px;
@@ -57,9 +59,16 @@
  
  .card__tag-list-item:hover{
     font-weight: 300;
-    background-color: rgba(99, 74, 175, 0.7);
-    color: white;
+    background-color: var(--teal);
+    color: var(--white);
+    box-shadow: 4px 4px var(--darkTeal);
     padding: 8px;
     border-radius: 5px;
     margin-right: 5px;
+ }
+
+ .card__button-bookmark{
+   position: absolute;
+   right: 20px;
+   top: -20px;
  }
