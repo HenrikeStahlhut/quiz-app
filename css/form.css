@@ -1,0 +1,33 @@
+.section__form{
+    
+    padding: 8.5rem 2rem 4rem 2rem;
+    max-width: 45rem;
+    margin: 0 auto;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form__headline{
+    display: block;
+    text-align: center;
+    font-family: "myFont";
+}
+
+.form__inputfields{
+    display: block;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form__labels{
+    padding: 1em 0;
+    font-family: "myFont";
+}
+
+.form__input-tags{
+    margin-bottom: 2em;
+    padding: 10px;
+}
