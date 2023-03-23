@@ -5,6 +5,7 @@
     margin: 0 auto;
 }
 
+
 .form{
     display: flex;
     flex-direction: column;
@@ -17,9 +18,10 @@
 }
 
 .form__inputfields{
-    display: block;
-    align-items: center;
     font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    border: solid 2px var(--teal);
+    box-shadow: 7px 4px var(--teal);
 }
 
 .form__labels{
