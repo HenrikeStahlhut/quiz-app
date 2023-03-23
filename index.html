@@ -13,16 +13,27 @@
             <h1>Quiz App</h1>
         </header>
         <main>
-                <section class="card">
-                    <button class="button--bookmark"><object data="media/bookmark.svg" class="button__svg" ></object></button>
-                    <p class="card__question">Lorem ipsum dolor sit amet, consectetur adipiscing elit <p>
-                    <button class="card__solution-button">Show answer</button>
-                    <div id="card__tags">
-                        <span>#tag1</span>
-                        <span>#tag2</span>
-                        <span>#tag3</span>
-                    </div>
-                </section>
+                <ul class="card__list">
+                    <li class="card-item">
+                    <section class="card">
+                        <h2 class="card__question">Lorem ipsum dolor sit amet, consectetur adipiscing consectetur adipiscing consectetur adipiscing elit?</h2>
+                            <!-- <p class="card__answer">Answer</p> -->
+                            <button class="card__solution-button">Show answer</button>
+                            <ul class="card__tag-list">
+                                <li class="card__tag-list-item">#Tag1</li>
+                                <li class="card__tag-list-item">#Tag2</li>
+                                <li class="card__tag-list-item">#Tag3</li>
+                            </ul>
+                            <div class="card__button-bookmark">
+                                <button class="bookmark" aria-label="bookmark" type="button">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    class="bookmark__icon"
+                                    viewBox="0 0 24 24"> <path d="M2 2v13.5a.5.5 0 0 0 .74.439L8 13.069l5.26 2.87A.5.5 0 0 0 14 15.5V2a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2z"/> </svg>
+                                </button>
+                              </div>
+                        </section>
+                    </li>
+                </ul>
             </main>
 
             <nav id="navigation">
