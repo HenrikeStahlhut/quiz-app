@@ -4,9 +4,6 @@
   font-family: MyFont;
   src: url(../fonts/KeeponTruckin.ttf);
 }
-html {
-  scroll-behavior: smooth;
-}
 
 *{
      box-sizing: border-box;
