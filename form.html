@@ -15,14 +15,14 @@
         <main>
             <section class="section__form">
                 <h2 class="form__headline">Add new cards!</h2>
-                <form class="form">
+                <form class="form" data-js="form">
                     <label for="question" class="form__labels">Your question:</label>
-                    <textarea name="question" id="question" cols="20" rows="6" class="form__inputfields"></textarea>
+                    <textarea name="question" id="question" cols="20" rows="6" class="form__inputfields" required data-js="questionTextarea"></textarea>
                     <label for="answer" class="form__labels">Your answer:</label>
-                    <textarea name="answer" id="answer" cols="20" rows="6" class="form__inputfields"></textarea>
+                    <textarea name="answer" id="answer" cols="20" rows="6" class="form__inputfields" required data-js="answerTextarea"></textarea>
                     <label for="tags" class="form__labels">Tags:</label>
-                    <input type="text" name="tags" class="form__input-tags form__inputfields">
-                    <button type="submit" name="submitButton" class="card__solution-button">Add question</button>
+                    <input type="text" name="tags" class="form__input-tags form__inputfields" required data-js="inputTags">
+                    <button type="submit" name="questionButton" class="card__solution-button" data-js="addQuestionButton">Add question</button>
                 </form>
             </section>
         </main>
@@ -35,5 +35,5 @@
             </ul>
         </nav>
             
-</body>
+</body>x
 </html>
