@@ -1,10 +1,10 @@
 #navigation{
+   background-color: var(--lightBeige);
    position: fixed;
    bottom: 0;
    left: 0;
    width: 100%;
-   background-color: rgba(255,255,255,0.25);
-   padding: 2em;
+   padding: 1em 2em 1em 2em;
 }
 
 #navigation__list{
